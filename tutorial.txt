@@ -1,0 +1,23 @@
+# git初期化
+git init
+
+# ブランチを切る
+# -b:ブランチの作成とチェックアウトをまとめて行う
+git checkout -b ブランチ名
+
+# インデックスに登録
+git add .
+
+# コミットする
+git commit -m 'コミット名' 
+
+# masterブランチに移動
+git checkout master
+
+# マージする
+# --no-ff:枝の履歴を残すため
+git merge --no-ff マージするブランチ名
+
+# ブランチの確認
+git branch
+
