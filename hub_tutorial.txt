@@ -1,0 +1,5 @@
+# リモートリポジトリの情報を追加
+git remote add origin リポジトリURL
+
+# リモートリポジトリへ反映させる
+git push origin master
